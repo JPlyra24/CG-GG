@@ -2,7 +2,7 @@ local composer = require("composer")
 
 local scene = composer.newScene()
 
-local button = require("src.components.button")
+local button = require("src.components.Button")
 
 local audioHandle
 local isPlaying = false
